@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    padding-top: 25px;
+    background-color: #fff;
+    padding-bottom: 20px;
+    box-shadow: 0px 2px #32312d83;
+}
+header > .logo{
+    width: 8%;
+    margin-left: 30px;
+}
+
+header > .navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+header > .navbar > a{
+    margin-right: 10px;
+    text-decoration: none;
+    flex-wrap: wrap;
+    color: #32312d;
+    font-weight: 800;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+header > .navbar > a:hover{
+    color: #06964e;
+}
+
+.historias-starbucks{
+    width: 20%;
+    margin-right: 20px;
+}
+
+header > .textfield{
+    align-items: flex-end;
+}
+
+header > .more{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.e-loja{
+    text-decoration: none;
+    color: #32312d;
+    margin-left: 4px;
+    font-weight: 800;
+}
+
+.textfield > .btn-entrar{
+    padding: 10px;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    background-color:#32312d ;
+    color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}  
+
+.textfield > .btn-entrar:hover{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.678);
+    transition: .5s;
+}
+
+.textfield > .btn-cadastrar{
+    padding: 10px;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    background-color:#32312d ;
+    color: white;
+    border-radius: 20px;
+}
+
+
+.textfield > .btn-cadastrar:hover{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.678);
+    transition: .5s;
+}
+
+
+
+section > .main-slide{
+    width: 100%;
+    height: 20%;
+    padding-bottom: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+.slide{
+    width: 200%;
+    height: auto;
+    display: flex;
+}
+
+.slide > input{
+    display: none;
+}
+
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.slide-box > img{
+    width: 100%;
+}
+
+
+.main2{
+    width: 100%;
+    margin-top: 30px;
+    background-color: #98fb987c;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.itens-main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.itens-main2 > p{
+    font-weight: 800;
+    color: #33433d;
+    
+}
+
+
+.itens-main2 > button{
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    background-color:#32312d ;
+    color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+.itens-main2 > button:hover{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.678);
+    transition: .5s;
+}
+
+
+
+
+
+
+
